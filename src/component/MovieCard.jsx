@@ -1,6 +1,9 @@
-export const MovieCard = ({title, year, description, imdb_score, rank, image_url }) => {
+import {Link} from "react-router";
+
+export const MovieCard = ({id, title, year, description, imdb_score, rank, image_url }) => {
     return (
         <>
+            <Link to={`/movie/${id}`}>
             <div className="rounded-3xl max-w-[370px] shadow-sm bg-white ">
                     <img
                         src={image_url}
@@ -9,12 +12,7 @@ export const MovieCard = ({title, year, description, imdb_score, rank, image_url
                         alt={title}
                     />
                     <div className="group px-5 py-3 grid z-10">
-                        <a
-                            href="#"
-                            className="group-hover:text-cyan-700 font-bold md:text-2xl line-clamp-2"
-                        >
-                            {title}
-                        </a>
+                        <h3 className="group-hover:text-cyan-700 font-bold md:text-2xl line-clamp-2">{title}</h3>
                         <span className="text-slate-400 pt-2 font-semibold">
                             ({year})
                         </span>
@@ -44,6 +42,7 @@ export const MovieCard = ({title, year, description, imdb_score, rank, image_url
                         </div>
                     </div>
                 </div>
+            </Link>
         </>
     )
 }

@@ -1,4 +1,4 @@
-import {MovieListing} from "./component/MovieListing.jsx";
+import { MovieListing } from "./component/MovieListing.jsx";
 import {Header} from "./component/Header.jsx";
 import Search from "./component/ui/Search.jsx";
 import movieData from "./movies.js";

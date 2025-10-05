@@ -1,3 +1,5 @@
+import {Link} from "react-router";
+
 export function Header() {
     return (
         <>
@@ -12,9 +14,9 @@ export function Header() {
                             />
                             <ul className="hidden md:flex gap-x-2">
                                 <li className="">
-                                    <a href="#" className="bg-slate-100 rounded hover:bg-cyan-700 py-2 px-5 hover:text-slate-50 dark:text-slate-700 text-slate-700">
+                                    <Link to="/" className="bg-slate-100 rounded hover:bg-cyan-700 py-2 px-5 hover:text-slate-50 dark:text-slate-700 text-slate-700">
                                         Home
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="">
                                     <a href="#" className="bg-slate-100 rounded hover:bg-cyan-700 py-2 px-5 hover:text-slate-50 dark:text-slate-800 text-slate-800">
