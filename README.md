@@ -1,12 +1,38 @@
-# React + Vite
+# React and React router Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple movie application built with React and React Router. It allows users to browse a list of movies, view details about each movie, and navigate between different pages.
 
-Currently, two official plugins are available:
+## Features
+- Browse a list of movies
+- View detailed information about each movie
+  - Navigate between different pages using React Router
+  - Responsive design for mobile and desktop
+  - Search functionality to find movies by title
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React
+- React Router
+- TailwindCSS for styling
+- JavaScript (ES6+)
+- HTML5 & CSS3
 
-## Expanding the ESLint configuration
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/D-Mbithi/react-router-checkpoint.git
+    cd react-router-checkpoint
+    ```
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+3. Start the development server:
+    ```bash
+    npm run dev
+    ``` 
+4. Open your browser and navigate to `http://localhost:5173`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+- Browse the list of movies on the home page.
+- Click on a movie title to view more details about the movie.
+- Use the navigation links to switch between different pages.SS
